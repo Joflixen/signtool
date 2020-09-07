@@ -108,6 +108,7 @@ function Add-Signature {
                 }
             }
         }
+        return $false
     } else {
         write-error("General Failure!")
     }
